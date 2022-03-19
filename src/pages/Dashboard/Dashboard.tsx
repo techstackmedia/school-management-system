@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Leftbar from "../../components/Leftbar/Leftbar";
-import LineCurve from "../../components/LineCurve/LineCurve";
+// import LineCurve from "../../components/LineCurve/LineCurve";
 import "./Dashboard.css";
 
 function Dashboard() {
@@ -8,7 +8,7 @@ function Dashboard() {
     <>
       <div className="Dashboard">
         <Leftbar />
-        <LineCurve />
+        {/* <LineCurve /> */}
         <Navbar />
       </div>
     </>
