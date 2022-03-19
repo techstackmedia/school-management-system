@@ -1,6 +1,7 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Leftbar from "../../components/Leftbar/Leftbar";
-// import LineCurve from "../../components/LineCurve/LineCurve";
+import Footer from "../../components/Footer/Footer";
+
 import "./Dashboard.css";
 
 function Dashboard() {
@@ -8,9 +9,9 @@ function Dashboard() {
     <>
       <div className="Dashboard">
         <Leftbar />
-        {/* <LineCurve /> */}
         <Navbar />
       </div>
+      <Footer />
     </>
   );
 }
