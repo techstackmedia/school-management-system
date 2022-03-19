@@ -1,0 +1,14 @@
+footer {
+  height: 4rem;
+  background-color: #fff;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer nav ul a {
+  text-decoration: none;
+  color: #74788d;
+}

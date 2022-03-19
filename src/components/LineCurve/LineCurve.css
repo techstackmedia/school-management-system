@@ -3,7 +3,7 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 6rem;
-  margin-left: 207.094px
+  margin-left: 207.094px;
 }
 
 .totalCountChat {
@@ -15,6 +15,21 @@
   margin-bottom: 30px;
   border-bottom: 3px solid rgba(93, 120, 255, 0.2);
 }
+
+@media (max-width: 961px) {
+  .totalCountChat {
+    width: 40rem;
+    height: 15rem;
+  }
+}
+
+@media (max-width: 890px) {
+  .totalCountChat {
+    width: 30rem;
+  }
+}
+
+/* 879px*/
 
 .totalCount {
   font-weight: 600;
@@ -29,4 +44,5 @@
 
 .totalCountTitle {
   color: #74788d;
+  font-size: 1.1rem;
 }
