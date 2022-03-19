@@ -12,7 +12,10 @@ const Leftbar = () => {
     <>
       <header className={leftSidebar.sidebarHeader}>
         <nav>
-          <div className={leftSidebar.sidebarTop}>
+          <div
+            style={{ visibility: "hidden" }}
+            className={leftSidebar.sidebarTop}
+          >
             <div>
               <img
                 className={leftSidebar.logoSidebarImg}

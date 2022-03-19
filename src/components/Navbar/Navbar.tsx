@@ -24,16 +24,16 @@ const Navbar = () => {
       <header className={topNavbar.header}>
         <nav className={topNavbar.topNavBar}>
           <div className={leftSidebar.sidebarTop}>
-            <div>
+            <div className={topNavbar.topNavbarSideLogo}>
               <img
                 className={leftSidebar.logoSidebarImg}
                 src={logo}
                 alt="cbc logo"
               />
             </div>
-            <div className={topNavbar.topNavbarSideImg}>
+            <div className={topNavbar.arrow}>
               <img
-                className={leftSidebar.arrorSidebarImg}
+                className={topNavbar.arrorSidebarImg}
                 src={arrorSidebarImg}
                 alt="arror sidebar"
               />

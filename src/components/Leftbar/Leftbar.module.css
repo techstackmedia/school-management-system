@@ -2,16 +2,13 @@
   display: inline-flex;
   height: 100vh;
   background-color: #fff;
+  position: fixed;
 }
 
 .sidebarTop {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
-  padding: 0 25px;
-  height: 4.063rem;
-  margin-top: 5px;
 }
 
 .logoSidebarImg {
