@@ -1,0 +1,71 @@
+.header {
+  background-color: #fff;
+  width: 100%;
+  height: 4rem;
+  position: relative;
+}
+
+.topNavBar {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  align-items: center;
+}
+
+.topNavBar ul {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.topNavBar ul .navItem {
+  list-style-type: none;
+  padding: 0.65rem 1.1rem;
+}
+
+.topNavBar li {
+  font-size: 0.813rem;
+  color: #6c7293;
+  transition: background-color 0.3s ease-out;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+}
+
+.navItemPosition {
+  display: flex;
+  align-items: center;
+}
+
+.topbarSpan1 {
+  color: #959cb6;
+  font-size: 11.7px;
+  font-weight: 500;
+  padding-right: 7.15px;
+}
+
+.topbarSpan2 {
+  color: #6c7293;
+}
+
+.topNavBar ul .navItem:hover {
+  color: #5d78ff;
+  background-color: rgba(77, 89, 149, 0.06);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.topNavBar img {
+  width: 34px;
+  height: 34px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.profileUser li {
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+}

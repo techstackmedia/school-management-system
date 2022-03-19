@@ -1,0 +1,38 @@
+.lineChatCurves {
+  position: relative;
+  display: flex;
+}
+
+.chat {
+  position: absolute;
+  top: 5.8rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  left: 230px;
+}
+
+.totalCountChat {
+  margin-left: 30px;
+  background-color: #fff;
+  width: 23.563rem;
+  height: 11.043rem;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.totalCount {
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #646c9a;
+}
+
+.totalCountChat img {
+  width: 8.125rem;
+  height: 3.125rem;
+}
+
+.totalCountTitle {
+  color: #74788d;
+}

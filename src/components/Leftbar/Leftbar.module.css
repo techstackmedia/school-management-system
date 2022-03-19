@@ -1,0 +1,95 @@
+.sidebarHeader {
+  display: inline-flex;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.sidebarTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 25px;
+  height: 4.063rem;
+  margin-top: 5px;
+}
+
+.logoSidebarImg {
+  width: 11.25rem;
+  height: 3.75rem;
+  object-fit: contain;
+}
+
+.arrorSidebarImg {
+  height: 1.625rem;
+  width: 1.625rem;
+}
+
+.sidebarSubItems {
+  margin-bottom: 10px;
+}
+
+.sidebarSubItemsMainActive {
+  background-color: #5f77f6;
+  color: #fff;
+  cursor: pointer;
+}
+
+.leftSidebarLink {
+  min-height: 44px;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.sidebarDropdown {
+  position: absolute;
+  right: 20px;
+}
+
+.leftSidebarLink span {
+  margin-left: 5px;
+}
+
+.leftSidebarLink:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sidebarSubItemsMain,
+.sidebarSubItemsMainActive {
+  min-height: 2.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.sidebarSubItems {
+  font-size: 0.813rem;
+  font-weight: bold;
+  color: #a2a3b7;
+}
+
+.sidebarSubItemsMain {
+  font-size: 0.731rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  color: #4c4e6f;
+}
+
+.sidebarSubItems li {
+  padding: 9px 0;
+  margin-top: -9px;
+}
+
+.leftSidebarLink,
+.sidebarSubItemsMainActive,
+.sidebarSubItemsMain {
+  padding: 9px 25px;
+}
+
+.sidebarReactIcon {
+  width: 16.9px;
+  height: 16.9px;
+}
