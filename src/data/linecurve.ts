@@ -5,23 +5,23 @@ const linecurve = {
   data: {
     chatDetails: [
       {
-        totalCount: 7,
+        totalCount: 1,
         totalCountTitle: "Total Schools",
         image: { linecure }
       },
       {
-        totalCount: 5,
-        totalCountTitle: "Total Schools",
+        totalCount: 15,
+        totalCountTitle: "Total Teachers",
         image: { linecure }
       },
       {
-        totalCount: 4,
-        totalCountTitle: "Total Schools",
+        totalCount: 0,
+        totalCountTitle: "Total Students",
         image: { linecure }
       },
       {
-        totalCount: 20,
-        totalCountTitle: "Total Schools",
+        totalCount: 19,
+        totalCountTitle: "Total Users",
         image: { linecure }
       },
     ]
