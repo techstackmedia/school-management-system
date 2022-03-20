@@ -1,9 +1,5 @@
 import personProfile from "../../images/person-profile.jpeg";
-// import NavbarItemsTypes from "../../interfaces/NavbarTypes";
 import topNavbar from "./Navbar.module.css";
-import leftSidebar from "../Leftbar/Leftbar.module.css";
-import logo from "../../images/logo.jpeg";
-import arrorSidebarImg from "../../images/arror-sidebar.svg";
 
 const Navbar = () => {
   const navItemsArr = [
@@ -23,22 +19,6 @@ const Navbar = () => {
     <>
       <header className={topNavbar.header}>
         <nav className={topNavbar.topNavBar}>
-          <div className={leftSidebar.sidebarTop}>
-            <div className={topNavbar.topNavbarSideLogo}>
-              <img
-                className={leftSidebar.logoSidebarImg}
-                src={logo}
-                alt="cbc logo"
-              />
-            </div>
-            <div className={topNavbar.arrow}>
-              <img
-                className={topNavbar.arrorSidebarImg}
-                src={arrorSidebarImg}
-                alt="arror sidebar"
-              />
-            </div>
-          </div>
           <div>
             <ul>{navbarItems}</ul>
           </div>

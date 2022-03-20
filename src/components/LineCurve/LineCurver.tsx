@@ -1,14 +1,20 @@
 // import LineChatType from "../../interfaces/LineChatType";
-import linecurve from "../../data/linecurve";
+import linecurve from "../../mocks/linecurve";
 import "./LineCurve.css";
 
 const lineCurveChatArr = linecurve.data.chatDetails;
-const LineChatCurves = lineCurveChatArr.map((item: any, index) => {
+const LineChatCurves = lineCurveChatArr.map((count: any, index) => {
   return (
-    <div className="totalCountChat">
-      <div className="totalCount">{item.totalCount}</div>
-      <div className="totalCountTitle">{item.totalCountTitle}</div>
-    </div>
+    <>
+      <div className="totalCountChat" key={index}>
+        <div className="totalCount" key={count.totalCount}>
+          {count.totalCount}
+        </div>
+        <div className="totalCountTitle" key={count.totalCountTitle}>
+          {count.totalCountTitle}
+        </div>
+      </div>
+    </>
   );
 });
 
