@@ -3,7 +3,8 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 6rem;
-  margin-left: 207.094px;
+  position: absolute;
+  left: 206px;
 }
 
 .totalCountChat {
@@ -14,6 +15,10 @@
   border-radius: 4px;
   margin-bottom: 30px;
   border-bottom: 3px solid rgba(93, 120, 255, 0.2);
+}
+
+.totalCountChat:last-child {
+  width: 85%;
 }
 
 @media (max-width: 961px) {
