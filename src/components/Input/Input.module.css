@@ -1,0 +1,26 @@
+.input {
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+  outline: none;
+  border: none;
+  width: 197.328px;
+  height: 36px;
+  border-radius: 4px;
+  margin: 30px;
+  text-indent: 35px;
+  background-color: rgba(0, 0, 0, 0.04);
+  top: 40;
+  left: 40px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+label {
+  position: relative;
+}
+
+.label .calendaSvg {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: #5b5c61;
+}

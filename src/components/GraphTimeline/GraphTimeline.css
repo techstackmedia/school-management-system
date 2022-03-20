@@ -1,0 +1,28 @@
+.graph {
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.graph p {
+  text-align: center;
+  color: #48465b;
+}
+
+/* .graph {
+  display: flex;
+  justify-content: center;
+  margin-left: 105px;
+  background-color: transparent;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.graph p {
+  text-align: center;
+  color: #48465b;
+}
+
+.formInputButtons {
+  display: flex;
+  justify-content: space-around;
+} */

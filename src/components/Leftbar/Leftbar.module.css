@@ -1,14 +1,17 @@
 .sidebarHeader {
-  display: inline-flex;
   height: 100vh;
   background-color: #fff;
-  position: fixed;
+  width: 20%;
 }
 
 .sidebarTop {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.sidebarNav {
+  width: 100%;
 }
 
 .logoSidebarImg {

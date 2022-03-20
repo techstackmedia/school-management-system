@@ -7,15 +7,13 @@ import arrorSidebarImg from "../../images/arror-sidebar.svg";
 import leftSidebar from "./Leftbar.module.css";
 import LineCurve from "../LineCurve/LineCurve";
 
+
 const Leftbar = () => {
   return (
     <>
       <header className={leftSidebar.sidebarHeader}>
-        <nav>
-          <div
-            style={{ visibility: "hidden" }}
-            className={leftSidebar.sidebarTop}
-          >
+        <nav className={leftSidebar.sidebarNav}>
+          <div className={leftSidebar.sidebarTop}>
             <div>
               <img
                 className={leftSidebar.logoSidebarImg}

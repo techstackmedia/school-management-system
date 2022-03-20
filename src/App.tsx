@@ -1,11 +1,14 @@
 import Dashboard from "./pages/Dashboard/Dashboard";
-// import LineCurve from "./components/LineCurve/LineCurve";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <>
-      {/* <LineCurve /> */}
-      <Dashboard />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/dashboard" element={<Dashboard />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 };
