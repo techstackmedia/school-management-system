@@ -1,10 +1,14 @@
 .graph {
-  position: absolute;
-  top: 500px;
-  display: flex;
-  width: 100%;
-  height: auto;
-  /* left: 206px; */
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.graph p {
+  text-align: center;
+  color: #48465b;
+}
+
+/* .graph {
   display: flex;
   justify-content: center;
   margin-left: 105px;
@@ -15,9 +19,10 @@
 
 .graph p {
   text-align: center;
+  color: #48465b;
 }
 
 .formInputButtons {
   display: flex;
   justify-content: space-around;
-}
+} */

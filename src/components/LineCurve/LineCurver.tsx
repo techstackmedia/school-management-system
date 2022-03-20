@@ -1,25 +1,34 @@
-// import LineChatType from "../../interfaces/LineChatType";
-import linecurve from "../../mocks/linecurve";
+// import Button from "../Button/Button";
+// import Input from "../Input/Input";
+import GraphTimeline from "../GraphTimeline/GraphTimeline";
 import "./LineCurve.css";
 
-const lineCurveChatArr = linecurve.data.chatDetails;
-const LineChatCurves = lineCurveChatArr.map((count: any, index) => {
-  return (
-    <>
-      <div className="totalCountChat" key={index}>
-        <div className="totalCount" key={count.totalCount}>
-          {count.totalCount}
-        </div>
-        <div className="totalCountTitle" key={count.totalCountTitle}>
-          {count.totalCountTitle}
-        </div>
-      </div>
-    </>
-  );
-});
-
 const LineCurver = () => {
-  return <div className="chat">{LineChatCurves}</div>;
+  return (
+    <div className="chat">
+      <div className="totalCountChat">
+        <div className="totalCount">1</div>
+        <div className="totalCountTitle">Total Schools</div>
+      </div>
+
+      <div className="totalCountChat">
+        <div className="totalCount">15</div>
+        <div className="totalCountTitle">Total Teachers</div>
+      </div>
+
+      <div className="totalCountChat">
+        <div className="totalCount">0</div>
+        <div className="totalCountTitle">Total Students</div>
+      </div>
+
+      <div className="totalCountChat">
+        <div className="totalCount">19</div>
+        <div className="totalCountTitle">Total Users</div>
+      </div>
+
+      <GraphTimeline />
+    </div>
+  );
 };
 
 export default LineCurver;

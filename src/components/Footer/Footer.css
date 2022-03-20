@@ -1,14 +1,32 @@
-footer {
-  height: 4rem;
-  background-color: #fff;
-}
-
-footer nav ul {
+.footer {
+  height: 0;
   display: flex;
-  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 20%;
 }
 
-footer nav ul a {
+.footerItems a {
   text-decoration: none;
   color: #74788d;
+  margin: 0 20px;
+}
+
+.footerItems span,
+.footerItems a {
+  font-size: 13px;
+}
+
+.footerNav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerItems {
+  display: flex;
+  justify-content: space-between;
 }

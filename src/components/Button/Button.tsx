@@ -1,14 +1,18 @@
+import { BsFilter } from "react-icons/bs";
 import PropTypes from "prop-types";
 import buttonSet from "./Button.module.css";
 const Button = (props: any) => {
   return (
-    <button
-      className={buttonSet.button}
-      type="button"
-      style={{ backgroundColor: props.background, color: props.color }}
-    >
-      {props.text}
-    </button>
+    <>
+      <BsFilter className={buttonSet.buttonsFilter}/>
+      <button
+        className={buttonSet.button}
+        type="button"
+        style={{ backgroundColor: props.background, color: props.color }}
+      >
+        {props.text}
+      </button>
+    </>
   );
 };
 

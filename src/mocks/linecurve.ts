@@ -28,10 +28,10 @@ const linecurve = {
         totalCountTitle: "Total Users",
         image: { linecure }
       },
-      {
-        graphTitle: "Best Performing School in Attendance",
-        buttonStyle: ""
-      }
+      // {
+      //   graphTitle: "Best Performing School in Attendance",
+      //   buttonStyle: ""
+      // }
     ]
   }
 };
