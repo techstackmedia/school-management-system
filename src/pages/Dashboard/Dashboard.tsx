@@ -11,7 +11,7 @@ function Dashboard() {
         <Leftbar />
         <Navbar />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

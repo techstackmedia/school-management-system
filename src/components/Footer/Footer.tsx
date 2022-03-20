@@ -1,16 +1,26 @@
 import { Link, Outlet } from "react-router-dom";
+import "./Footer.css";
+
 const Footer = () => {
   return (
-    <footer>
-      <nav>
-        <ul>
-          <li>
-            <span>2022 ©</span> <Link to="/">CBC EMEA</Link>
+    <footer className="footer">
+      <nav className="footerNav">
+        <ul className="footerItems">
+          <li className="footerList">
+            <Link className="footerLink" to="/">
+              <span>2022 ©</span> CBC EMEA
+            </Link>
           </li>
-          <li>
-            <Link to="/about">About</Link>
-            <Link to="/team">Team</Link>
-            <Link to="/contact">Contact</Link>
+          <li className="footerList">
+            <Link className="footerLink" to="/about">
+              About
+            </Link>
+            <Link className="footerLink" to="/team">
+              Team
+            </Link>
+            <Link className="footerLink" to="/contact">
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

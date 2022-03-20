@@ -10,3 +10,11 @@
   cursor: pointer;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
+
+.buttonsFilter {
+  position: relative;
+  top: 40px;
+  left: 110px;
+  color: #fff;
+  cursor: pointer;
+}
