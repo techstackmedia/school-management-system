@@ -2,6 +2,7 @@ import personProfile from "../../images/person-profile.jpeg";
 import topNavbar from "./Navbar.module.css";
 
 const Navbar = () => {
+  
   const navItemsArr = [
     "Dashboards",
     "Schools",
